@@ -1,0 +1,88 @@
+body {
+  background-color: bisque;
+}
+
+.relic {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="tel"] {
+  padding: 10px;
+  border-radius: 10px;
+  color: brown;
+  border: 1px solid firebrick;
+  background-color: beige;
+}
+
+input[type="tel"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px red;
+}
+
+input[type="tel"]:valid,
+input[type="text"]:valid {
+  border-color: green;
+}
+
+input[type="tel"]:invalid,
+input[type="text"]:invalid {
+  border-color: red;
+}
+
+.button {
+  text-align: center;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: solid firebrick;
+}
+
+button[type="submit"]:focus,
+button[type="reset"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px red;
+}
+
+.ystal {
+  text-align: center;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: green;
+}
+
+input[type="range"] {
+  width: 100%;
+  height: 8px;
+  background: #007acc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid #007acc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid #007acc;
+  border-radius: 50%;
+  cursor: pointer;
+}

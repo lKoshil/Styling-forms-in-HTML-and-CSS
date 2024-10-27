@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <main>
+        <form action="">
+          <div class="relic">
+            <h1>информация о вас</h1>
+            <label for="name">ФИО</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              size="25px"
+              placeholder="Фамилия Имя Отчество"
+              type="text"
+              required
+            />
+            <label for="phone">номер телефона</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              placeholder="номер телефона"
+            />
+          </div>
+          <div class="button">
+            <button type="submit">подтвердить</button>
+            <button type="reset">отклонить</button>
+          </div>
+          <div class="ystal">
+            <h1>выберите что вы любите</h1>
+            <div>
+              <label> <input type="checkbox" name="interes" />музыка </label>
+              <label> <input type="checkbox" name="interes" />игры </label>
+              <label> <input type="checkbox" name="interes" />чтение </label>
+              <label> <input type="checkbox" name="interes" />танцевать </label>
+              <label>
+                <input type="checkbox" name="interes" />ждать выхода игры гта 6
+              </label>
+            </div>
+            <div>
+              <h3>надеюсь ты не выбрал "ждать выхода игры гта 6"?</h3>
+              <label>
+                <input class="invalid" type="radio" name="vibor" /> выбрал
+              </label>
+              <label> <input type="radio" name="vibor" /> нееет </label>
+            </div>
+          </div>
+        </form>
+      </main>
+    </header>
+    <footer></footer>
+  </body>
+</html>
